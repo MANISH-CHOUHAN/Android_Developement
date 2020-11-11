@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242">
+
+    <ImageView
+        android:id="@+id/news"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:src="@drawable/we1" />
+
+    <ImageView
+        android:id="@+id/yt"
+        android:layout_width="305dp"
+        android:layout_height="309dp"
+        android:layout_below="@id/news"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="-44dp"
+        android:layout_marginTop="49dp"
+        android:layout_toRightOf="@id/tyr"
+        android:padding="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/manish" />
+
+    <ImageView
+        android:id="@+id/coffeeshop"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="4dp"
+        android:padding="2dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/carss" />
+
+    <TextView
+        android:id="@+id/ourstory"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/news"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/abril_fatface"
+        android:paddingLeft="10dp"
+        android:text="Brand List"
+        android:textColor="#64DD17"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/tyr"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ourstory"
+        android:layout_marginTop="13dp"
+        android:paddingLeft="6dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="serif"
+        android:text="1.Mercedes
+         2.BMW     3.Rolls Royce  4.Bentley 5.Bugatti 6.Porsche   7.Lexus     8.Land Rover 9.Toyota 10.Audi "
+        android:textColor="#FFA000"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="128dp"
+        android:layout_below="@id/tyr"
+        android:layout_above="@+id/coffeeshop"
+        android:padding="2dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/download" />
+
+
+</RelativeLayout>
